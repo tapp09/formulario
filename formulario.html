@@ -1,13 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Picolé</title>
-</head>
-<body>
-    <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -17,80 +8,87 @@
     <style>
         .botoes
         {
-            width: 100%;
-            display: flex;
-            justify-content: right;
+            width:100%;
+            display:flex;
+            justify-content:right;
         }
         button
         {
-            color: red;
-            background-color: yellow;
-            width: 100px;
-            height: 60px;
-            font-size: 20px;
+            color:red;
+            background-color:yellow;
+            width:100px;
+            height:60px;
+            font-size:20px;
+            
         }
         button:hover
         {
-            background-color: green;
+            background-color:green;
+
         }
     </style>
 </head>
 <body>
-
+    
     <fieldset>
         <legend> Dados do Picolezinho </legend>
         Descrição:
-        <input type="text"  class="caixa_larga"  id="descricao">
-        <br>  <br>
+        <input type="text" class="caixa_larga" id="descricao">
+        <br> <br>
         Digite o preço:
-        <input type="text"  class="caixa_larga"  id="preco">
-        <br>  <br>
+        <input type="text" class="caixa_larga" id="preco">
+        <br> <br>
         Fornecedor da parada:
-        <input type="text"  class="caixa_larga"  id="fornecedor">
-        <br>  <br>
+        <input type="text" class="caixa_larga" id="fornecedor">
+        <br> <br>
         Quantidade a desenrolar:
         <input type="number" class="caixa_larga" id="quantidade">
-        <br>  <br>
+        <br> <br>
         Data do pedido:
         <input type="date" id="data_pedido">
     </fieldset>
-
-<br> <br>
-
+        <br> <br>
     <fieldset>
-        <legend>Sobre o sabor</legend>
+        <legend> Sobre o sabor </legend>
         Escolha somente 1 sabor:
         <br> <br>
         <input type="radio" id="pimenta" name="sabores">
         Pimenta
         <input type="radio" id="cenoura" name="sabores">
-        Cenoura
+        cenoura
         <input type="radio" id="cimento" name="sabores">
-        Cimento
-        <input type="radio" id="abobora" name="sabores">
-        Abóbora
-        <br>  <br>
+        cimento
+        <input type="radio" id="abobora " name="sabores">
+        abóbora
+        <br> <br>
         Selecione quais as cores da embalagem:
         <br>
         <input type="checkbox" id="amarelo">Amarelo
         <input type="checkbox" id="verde">Verde
-        <input type="checkbox" id="burro">Burro quando foge
+        <input type="checkbox" id="rosa">Rosa
         <br> <br>
         Selecione um Estado para entrega:
         <select id="estado">
             <option>Amapá</option>
+            <option>Amazonas</option>
             <option>Bahia</option>
-            <option>Paraná</option>
-            <option selected>Santa Catarina</option>
-        </select>
-    </fieldset>
+            <option>Tocantins</option>
+            <option>Rio de Janeiro</option>
+            <option>Pará</option>
+            <option>Acre</option>
+            <option selected>Roraima</option>
 
+
+
+        </select>
+
+        
+        
+    </fieldset>
+    <br> <br>
     <div class="botoes">
-        <button>ENVIAR</button>
-        <button>LIMPAR</button>
-    </div>
-    
-</body>
-</html>
+    <button>ENVIAR</button>
+    <BUTTON> LIMPAR </BUTTON>
+</div>
 </body>
 </html>
